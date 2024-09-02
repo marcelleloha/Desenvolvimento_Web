@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(235, 153, 214);
+}
+
+.destaque {
+    color: rgb(255, 0, 200);
+    font-weight: bold;
+  }
+h1 {
+    background-color: pink;
+    color:black
+  }
