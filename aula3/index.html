@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>
-        Esse é o titulo mais significativo de um documento html.
+    <h1 id="meu-h1">
+        <p>
+            Meu primeiro DOCTYPE HTML
+        </p>
     </h1>
     <h2>
-        Ao todo temos 6 títulos e utilizamos esse como segundo mais significativo. 
+        <label for="name">Seu nome:</label>
+        <input type="text" id="name" name="name" required minlength="4" maxlength="12" size="20" />
+       
     </h2>
     <h3>
         <p>
@@ -23,10 +27,30 @@
                 No div introduzimos coisas que não são <strong>sections</strong> nem <strong> nem article</strong>.
             </div>
         </p>
+        <p>
+            <form method="post">
+                <label>
+                    Name: <input name="submitted-name" autocomplete="name">
+                </label>
+                <button>Save</button>
+            </form>
+        </p>
     </h3>
     <h4>
         <p> O span é usado para estilizar.
             <p>Olá, <span class="destaque">mundo</span>!</p>
+        </p>
+        <p>
+            <form method="post">
+                <label>
+                    <fieldset>
+                        <legend>
+                            Selecione:
+                        </legend>
+                        <label> <input type="radio" name="radio"> Me selecione</label>
+                    </fieldset>
+            </label>
+            </form>
         </p>
     </h4>
     <h5>
@@ -35,21 +59,41 @@
             O ul introduz uma lista não ordenada.
             <ul>
                 <li>o li introduz o item.</li>
-                <li>Esse é outro item.</li>
+                <li>Esse é <ins>  outro </ins>
+                item.</li>
                 <p> O ol introduz uma lista ordenada.</p>
                 <ol>
-                    <li>Esse é o primeiro item.</li>
-                    <li> E esse é o segundo item.</li>
+                    <li>Esse é o <strong> primeiro</strong> item.</li>
+                    <li> E esse é o <em>segundo</em> item.</li>
                 </ol>
             </ul>
+        </p>
+        <audio controls src="light-my-fire.mp3">musiquinha</audio>  
+        <a href="light-my-fire.mp3">Áudio para baixar</a>
+        <p>
+            <video controls src="doguinho.mp4" width="400">video do doguinho</video>
+        </p>
+        <p>
+            <form method="get">
+                <label>Name:
+                    <input name="seu nome" autocomplete="name">
+                </label>
+                <button>Save</button>
+            </form>
         </p>
     </h5>
     <h6>
         Por <s> menos importante</s> último...
         <p>Usamos a tag: menu <menu>
-            <li>link 1</li>
-            <li>link 2</li>
+            <li>link 1 <a href="https://github.com/marcelleloha/Desenvolvimento_Web">Meu GitHub</a>
+            </li>
+            <li>link 2 <a href="https://www.notion.so/a7c82f833ca7463f89e287aaf269951c?v=ff7f6669372841f3b82cd2fefedc75bd&pvs=4">
+                Meu Notion
+            </a>
         </menu></p>
+        <p>
+            <img src="image.jpeg" width="400"> 
+        </p>
     </h6>
 </body>
 </html>

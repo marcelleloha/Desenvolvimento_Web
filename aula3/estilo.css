@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(235, 153, 214);
 }
 
@@ -8,5 +8,26 @@ body{
   }
 h1 {
     background-color: pink;
-    color:black
+    color:black;
+    text-align: center;
+    text-decoration: double;
   }
+h2 {
+  color: rgb(255, 0, 200);
+  background-color: rgb(255, 192, 203);
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+    text-align: center;
+  }
+h5 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
