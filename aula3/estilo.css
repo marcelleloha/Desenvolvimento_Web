@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     background-color: rgb(235, 153, 214);
+    font-family: "Lato";
 }
 
 .destaque {
@@ -11,15 +14,19 @@ h1 {
     color:black;
     text-align: center;
     text-decoration: double;
+    font-family: "Pacifico", cursive;
   }
 h2 {
   color: rgb(255, 0, 200);
   background-color: rgb(255, 192, 203);
   text-align: center;
+  font-family: "Pacifico", cursive;
+
 }
 
 h3 {
   text-align: center;
+  font-family: "Pacifico", cursive;
 }
 
 h4 {
@@ -30,4 +37,6 @@ h5 {
 }
 h6 {
   text-align: center;
+  font-family: "Pacifico", cursive;
 }
+
