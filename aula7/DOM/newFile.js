@@ -1,0 +1,1 @@
+imagem.src = atleta.imagem;

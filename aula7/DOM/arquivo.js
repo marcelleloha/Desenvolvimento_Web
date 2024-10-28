@@ -1,5 +1,21 @@
-const div = document.getElementById("container");
+const container = document.getElementById("container");
 
-div.querySelector("h1").innerText = "Jucinara";
-div.querySelector("p").innerText = "Jucinara Thaís Soares Paz, mais conhecida como Jucinara (Porto Alegre, 3 de agosto de 1993),é uma jogadora de futebol brasileira que atua como lateral esquerda. Atualmente, joga no Flamengo."
-div.querySelector("img").src = "jucinara.jpg";
+let conteudo = '';
+
+const montaCard = (atleta) =>`
+    <article>
+    <h1>${atleta.nome}</h1>
+    <img src=${atleta.imagem}>
+    <p>${atleta.detalhes}</p>
+    </aticle>
+`
+
+/*for (let i = 0; i < dados.length; i++){
+    let atleta = dados[i];
+
+    conteudo +=montaCard(atleta);
+}*/
+
+dados.forEach((atleta) => conteudo += montaCard(atleta))
+
+container.innerHTML = conteudo;

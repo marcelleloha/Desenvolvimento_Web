@@ -1,0 +1,18 @@
+#container > h1 {
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    background-color: #fa80cb;
+    grid-template-columns: repeat(auto-fit, 200px);
+    flex-wrap: wrap;
+}
+#container > article {
+    width: 20rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+    background-color: #fa80cb;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
