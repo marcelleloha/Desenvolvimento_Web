@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(86, 99, 97);
+
+}
+
+#container > article {
+    width: calc(30%);
+    border: 5px solid rgb(10, 10, 10);
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: pink;
+    
+}
+
+#container img {
+    max-width: 100%;
+}
